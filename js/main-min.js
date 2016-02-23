@@ -1,0 +1,1 @@
+var initShell=function(){jQuery(function(i,n){var e=i(window).innerWidth()-100,t=i(window).innerHeight()-100;i("#cursor").hide(),i("#term").terminal(function(i,e){if(""!==i){var t=window.eval(i);t!=n&&e.echo(String(t))}},{greetings:"&nbsp;",name:"js_demo",height:t,width:e,prompt:"> "})})};setTimeout(initShell,6e3);
